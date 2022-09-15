@@ -16,7 +16,7 @@ main {
 .title {
     font-size: 3em;
     text-align: center;
-    color: rgb(255, 0, 111);
+    color: rgb(255, 0, 128);
     margin: 20px 0 40px;
 }
 
@@ -29,7 +29,7 @@ main {
     margin-bottom: 50px;
 }
 
-.row::after {
+.clearfix::after {
     content: "";
     display: table;
     clear: both;
@@ -38,16 +38,11 @@ main {
 .card {
     background-color: black;
     color: white;
-    width: calc(33.3% - 20px);
+    width: calc(33.33% - 20px);
     border-radius: 5px;
     float: left;
     margin: 0 10px;
-}
-
-.card::after {
-    content: "";
-    display: table;
-    clear: both;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .card img {
