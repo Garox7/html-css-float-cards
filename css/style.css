@@ -68,3 +68,7 @@ main {
 .card-info a {
     color: #51A0D5;
 }
+
+.card-info a:hover {
+    color: rgb(255, 0, 128);
+}
